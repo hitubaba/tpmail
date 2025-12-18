@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#inbox {
+  margin-top: 20px;
+  text-align: left;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  max-height: 300px;
+  overflow-y: auto;
+}
